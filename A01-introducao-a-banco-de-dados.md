@@ -1,4 +1,4 @@
-# 🗄️ Introdução a Bancos de DadoS
+# 🗄️ Introdução a Bancos de Dados
 
 ---
 
@@ -105,7 +105,7 @@ Os dados ficam protegidos com:
 
 ---
 
-## 🚀 Por que os Bancos de Dados Relacionais são Importantes?
+## 🚀 Por que os Bancos de Dados São Importantes?
 
 ### ⚡ Principais benefícios
 
@@ -119,12 +119,6 @@ Os dados ficam protegidos com:
 - 🔒 **Segurança:** Proteção total contra perda
 - 💾 **Backup:** Informações mantidas seguras
 - 🎫 **Controle de acesso:** Permissões rigorosas
-
-#### 3️⃣ **🏗️ Suporte a aplicações complexas**
-- 📊 Gerenciamento de **milhões de dados** simultaneamente
-- 🏦 **Aplicativos bancários** 
-- 🛍️ **Sistemas de e-commerce**
-- 💼 **Sistemas empresariais (ERP, CRM)**
 
 ---
 
@@ -142,17 +136,6 @@ Para funcionar adequadamente, precisa gerenciar:
 > Todas essas operações dependem de um **banco relacional robusto** funcionando nos bastidores.
 
 ---
-
-### 📊 Representação visual: Analogia com Excel
-
-#### 🏗️ Estrutura do Banco
-
-| Conceito | Excel | Banco de Dados |
-|----------|-------|----------------|
-| 📁 **Container** | Arquivo Excel | Banco de dados |
-| 📋 **Organização** | Planilhas | Tabelas |
-| 📝 **Entradas** | Linhas | Registros |
-| 📊 **Características** | Colunas | Campos |
 
 #### 👥 Exemplo prático - Tabela "Usuários"
 
@@ -173,7 +156,7 @@ Para funcionar adequadamente, precisa gerenciar:
 
 ---
 
-## 🔗 Bancos de Dados Relacionais (SQL)
+## 🔗 Bancos de Dados Relacionais
 
 ### 🎯 O que é um Banco Relacional
 
@@ -183,11 +166,6 @@ Para funcionar adequadamente, precisa gerenciar:
 - 📋 Organização clara e estruturada
 - 📝 Cada linha = registro único
 - 📊 Cada coluna = atributo específico
-
-💬 **SQL como linguagem padrão**
-- 🔤 Structured Query Language
-- 🌐 Linguagem universal para dados relacionais
-- ⚙️ Operações: criar, consultar, atualizar, deletar
 
 📋 **Exemplo de tabelas: usuários e pedidos**
 - 👤 Tabela **usuários:** dados dos clientes
@@ -275,39 +253,6 @@ Na tabela usuários, incluímos apenas campos **necessários para nosso contexto
 
 ---
 
-### 💬 SQL - Linguagem de Interação
-
-Para interagir com tabelas relacionais, utilizamos **SQL** (Structured Query Language):
-
-#### ⚙️ Operações principais
-
-| Operação | Função | Exemplo |
-|----------|---------|---------|
-| **CREATE** | 🏗️ Criar tabelas | `CREATE TABLE usuarios` |
-| **INSERT** | ➕ Inserir dados | `INSERT INTO usuarios` |
-| **SELECT** | 🔍 Consultar | `SELECT * FROM usuarios` |
-| **UPDATE** | ✏️ Atualizar | `UPDATE usuarios SET nome` |
-| **DELETE** | 🗑️ Excluir | `DELETE FROM usuarios` |
-
-#### 📝 Exemplo de consulta SQL
-
-```sql
-SELECT u.nome, p.valor 
-FROM usuarios u 
-JOIN pedidos p ON u.id = p.id_usuario
-WHERE u.nome = 'João';
-```
-
-> 💡 **Esta consulta mostra todos os pedidos feitos pelo João**
-
----
-
-### 🌍 Outros tipos (contexto)
-
-Existem também bancos **🔄 Não-Relacionais (NoSQL)** que têm estrutura mais flexível, mas nosso foco será nos **🔗 bancos relacionais** amplamente utilizados em sistemas empresariais.
-
----
-
 ## 🏢 Onde os Bancos de Dados Relacionais são Usados?
 
 ### 💼 Exemplos práticos de aplicações
@@ -339,18 +284,3 @@ Existem também bancos **🔄 Não-Relacionais (NoSQL)** que têm estrutura mais
 ### 🎭 A realidade por trás das aplicações
 
 > Toda vez que você usa um sistema que requer **consistência e integridade**, por trás da interface existem **bancos relacionais trabalhando intensamente** para garantir precisão, segurança e disponibilidade.
-
----
-
-## 📚 Resumo dos Conceitos Aprendidos
-
-Nesta introdução aos bancos de dados relacionais, você dominou:
-
-| ✅ | Conceito |
-|----|----------|
-| 🎯 | **O que são bancos relacionais** e sua importância |
-| 🧠 | **Conceitos fundamentais:** dados, informações, registros, campos |
-| ⚙️ | **SGBD:** Sistema Gerenciador de Banco de Dados relacionais |
-| 🗂️ | **Estrutura em tabelas:** Linhas, colunas e relacionamentos |
-| 💬 | **Linguagem SQL:** Ferramenta para manipular dados |
-| 🏢 | **Aplicações práticas:** Como funcionam em sistemas reais |
