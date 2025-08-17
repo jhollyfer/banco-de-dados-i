@@ -69,9 +69,7 @@ A modelagem acontece em **3 etapas**, como se fosse desenhar um carro:
 
 ---
 
-## 🎯 Do Zero ao Banco Pronto
-
-### 🚀 Começando do zero
+## 🚀 Começando do zero
 
 Quando você precisa criar um banco de dados, comece sempre se perguntando:
 
